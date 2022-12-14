@@ -214,7 +214,7 @@ client.on('interactionCreate', async interaction => {
 			)
 			.addFields({ name: 'VPS / Host OS', value: osver, inline: true })
 			.setTimestamp()
-			.setFooter({ text: 'SeedMinerBot v1.0', iconURL: 'https://i.imgur.com/AfFp7pu.png' });
+			.setFooter({ text: 'SeedMinerBot v1.1', iconURL: 'https://i.imgur.com/AfFp7pu.png' });
 
 		await interaction.reply({ embeds: [embed]});
 		console.log(botlog + "user demmanded botinfo!");
